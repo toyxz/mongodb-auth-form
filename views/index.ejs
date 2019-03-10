@@ -1,0 +1,10 @@
+<%-  include header %>
+
+<% if (authenticated) {%>
+    <span><a title="退出登录" href="/logout">logout</a></span>
+<% } else {%>
+    <span><a title="登录" href="/login">login</a></span>
+<% } %>
+
+
+<%-  include footer %>
