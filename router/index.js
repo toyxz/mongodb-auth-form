@@ -1,5 +1,5 @@
-var userSchema = require('../modal/user.js');
-var crypto = require('crypto');
+const userSchema = require('../modal/user.js');
+const crypto = require('crypto');
 
 module.exports = function(app) {
     app.get('/', function(req,res,next) {
